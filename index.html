@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Практика 10</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <button class="open-modal">Нажми</button>
+
+    <div class="modal-overlay" id="modal">
+        <div class="modal">
+            <button class="close-modal">&times;</button>
+            <div class="tabs">
+                <button class="tab active" data-tab="tab1">Вкладка 1</button>
+                <button class="tab" data-tab="tab2">Вкладка 2</button>
+                <button class="tab" data-tab="tab3">Вкладка 3</button>
+            </div>
+            <div class="tab-content">
+                <div class="content active" id="tab1">Контент первой вкладки.</div>
+                <div class="content" id="tab2">Контент второй вкладки.</div>
+                <div class="content" id="tab3">Контент третьей вкладки.</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
